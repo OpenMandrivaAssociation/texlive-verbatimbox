@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-verbatimbox
 Version:	1.0
-Release:	2
+Release:	3
 Summary:	Deposit verbatim text in a box
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/verbatimbox
