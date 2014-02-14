@@ -1,12 +1,12 @@
-# revision 31022
+# revision 32894
 # category Package
 # catalog-ctan /macros/latex/contrib/verbatimbox
-# catalog-date 2013-06-19 11:29:28 +0200
+# catalog-date 2014-02-04 19:03:18 +0100
 # catalog-license lppl
-# catalog-version 3.1
+# catalog-version 3.11
 Name:		texlive-verbatimbox
-Version:	3.1
-Release:	5
+Version:	3.11
+Release:	1
 Summary:	Deposit verbatim text in a box
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/verbatimbox
