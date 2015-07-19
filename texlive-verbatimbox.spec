@@ -6,7 +6,7 @@
 # catalog-version 3.13
 Name:		texlive-verbatimbox
 Version:	3.13
-Release:	4
+Release:	5
 Summary:	Deposit verbatim text in a box
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/verbatimbox
