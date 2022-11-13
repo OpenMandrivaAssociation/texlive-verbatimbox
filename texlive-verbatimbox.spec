@@ -1,18 +1,12 @@
-# revision 33197
-# category Package
-# catalog-ctan /macros/latex/contrib/verbatimbox
-# catalog-date 2014-03-12 19:18:01 +0100
-# catalog-license lppl
-# catalog-version 3.13
 Name:		texlive-verbatimbox
-Version:	3.13
-Release:	6
+Version:	33197
+Release:	1
 Summary:	Deposit verbatim text in a box
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/verbatimbox
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/verbatimbox.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/verbatimbox.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/verbatimbox.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/verbatimbox.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -31,12 +25,12 @@ package makes use of the verbatim package (which is a required
 part of any LaTeX distribution).
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -47,7 +41,7 @@ part of any LaTeX distribution).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
