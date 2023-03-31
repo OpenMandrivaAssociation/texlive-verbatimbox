@@ -1,6 +1,6 @@
 Name:		texlive-verbatimbox
 Version:	33197
-Release:	1
+Release:	2
 Summary:	Deposit verbatim text in a box
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/verbatimbox
