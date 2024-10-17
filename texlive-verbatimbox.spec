@@ -3,7 +3,7 @@ Version:	67865
 Release:	1
 Summary:	Deposit verbatim text in a box
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/verbatimbox
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/verbatimbox
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/verbatimbox.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/verbatimbox.doc.r%{version}.tar.xz
